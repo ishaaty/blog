@@ -7,6 +7,7 @@ button {
     font-size: 20px;
     margin-bottom: 10px;
     line-height: 200%;
+    color: black;
 }
 
 
@@ -30,7 +31,4 @@ button {
 #homePg:hover {
     background-color: black;
     color: white;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }

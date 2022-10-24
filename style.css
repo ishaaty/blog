@@ -12,10 +12,7 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
-
-a {
-    color: white;
+    color: black;
 }
 
 button:hover {
