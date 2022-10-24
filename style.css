@@ -8,6 +8,7 @@ button {
     border-radius: 15px;
     cursor: pointer;
     transition: all .5s;
+    margin-left: 20px;
 }
 
 button:hover {
