@@ -23,10 +23,14 @@ button {
     margin-top: 20px;
     transition: all .5s;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #homePg:hover {
     background-color: black;
     color: white;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }

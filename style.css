@@ -10,6 +10,8 @@ button {
     transition: all .5s;
     margin-left: 10px;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 a {
