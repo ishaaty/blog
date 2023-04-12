@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        button {
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #one {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-right: 25px;
+            padding-left: 25px;
+            background-color: red;
+            border-width: 1px;
+            border-color: black;
+            border-radius: 30px;
+            transition: all .75s;
+        }
+
+        #one:hover {
+            background-color: orange;
+            border-color: navy;
+        }
+
+        #two {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-right: 25px;
+            padding-left: 25px;
+            margin-left: 25px; 
+            margin-right: 25px;
+            background-color: aliceblue;
+            border-color:dodgerblue;
+            border-width: 2px;
+            border-radius: 5px;
+            transition: all .75s;
+        }
+
+        #two:hover {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-left: 40px; 
+            margin-right: 40px;
+        }
+
+        #three {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 30px;
+            margin-left: 80px;
+            margin-right: 80px;
+            background-color: greenyellow;
+            transition: all 1.75s;
+        }
+
+        #three:hover {
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: green;
+        }
+
+        #four {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 10px;
+            background-color:black;
+            border-color: white;
+            color: black;
+            transition: all .75s;
+        }
+
+        #four:hover{
+            border-color:black;
+            background-color: white;
+            color: black;
+        }
+
+        #five {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 35px;
+            padding-right: 35px;
+            transition: all .75s;
+            margin-left: 40px;
+            margin-right: 40px;
+            border-radius: 10px;
+            background-color: orangered;
+        }
+
+        #five:hover {
+            padding-top: 35px;
+            padding-bottom: 35px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 55px;
+            margin-right: 55px;
+            background-color: yellow;
+        }
+
+        #five:active {
+            background-color: blueviolet;
+        }
+
+        #six {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+            box-shadow: 0px 5px black;
+            border-radius: 3px;
+            background-color: yellow;
+            margin-right: 10px;
+            transition: all .5s;
+        }
+
+        #six:active {
+            box-shadow: 0px 0px;
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>buttons</h1>
+        <h2>hover over/click them to see effects</h2>
+        <h4>rip mobile users</h4>
+        <button id="one"></button>
+        <button id="two"></button>
+        <button id="three"></button>
+        <button id="four">boo</button>
+        <button id="five"></button>
+        <button id="six">hehe</button>
+    </div>
+</body>
+</html>
