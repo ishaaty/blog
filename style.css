@@ -13,6 +13,7 @@ button {
     -moz-appearance: none;
     appearance: none;
     color: black;
+    margin-bottom: 10px;
 }
 
 button:hover {
